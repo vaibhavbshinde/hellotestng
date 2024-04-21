@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Functional_Suite">
+    <test name = "Test">
+        <classes>
+            <class name="testngkit.steps.AddBookSteps_TestNG"/>
+            <class name="testngkit.steps.JiraAPISteps_TestNG"/>
+        </classes>
+    </test> <!-- Test -->
+</suite> <!-- Functional_Suite -->

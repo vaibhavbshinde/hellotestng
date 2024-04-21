@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="2" total="10" passed="8" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-04-21T14:55:04 CEST" name="Functional_Suite" finished-at="2024-04-21T14:55:07 CEST" duration-ms="3104">
+    <groups>
+      <group name="functional">
+        <method signature="JiraAPISteps_TestNG.user_execute_add_jira_ticket_api_post_using_valid_data()[pri:0, instance:testngkit.steps.JiraAPISteps_TestNG@70efb718]" name="user_execute_add_jira_ticket_api_post_using_valid_data" class="testngkit.steps.JiraAPISteps_TestNG"/>
+        <method signature="JiraAPISteps_TestNG.verify_status_code_for_add_jira_ticket_api_is()[pri:0, instance:testngkit.steps.JiraAPISteps_TestNG@70efb718]" name="verify_status_code_for_add_jira_ticket_api_is" class="testngkit.steps.JiraAPISteps_TestNG"/>
+        <method signature="JiraAPISteps_TestNG.verify_update_jira_is_working()[pri:0, instance:testngkit.steps.JiraAPISteps_TestNG@70efb718]" name="verify_update_jira_is_working" class="testngkit.steps.JiraAPISteps_TestNG"/>
+      </group> <!-- functional -->
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testngkit.steps.AddBookSteps_TestNG@38f116f6]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testngkit.steps.JiraAPISteps_TestNG@70efb718]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+      <group name="smoke">
+        <method signature="JiraAPISteps_TestNG.user_execute_add_jira_ticket_api_post_using_valid_data()[pri:0, instance:testngkit.steps.JiraAPISteps_TestNG@70efb718]" name="user_execute_add_jira_ticket_api_post_using_valid_data" class="testngkit.steps.JiraAPISteps_TestNG"/>
+        <method signature="JiraAPISteps_TestNG.verify_status_code_for_add_jira_ticket_api_is()[pri:0, instance:testngkit.steps.JiraAPISteps_TestNG@70efb718]" name="verify_status_code_for_add_jira_ticket_api_is" class="testngkit.steps.JiraAPISteps_TestNG"/>
+        <method signature="JiraAPISteps_TestNG.verify_update_jira_is_working()[pri:0, instance:testngkit.steps.JiraAPISteps_TestNG@70efb718]" name="verify_update_jira_is_working" class="testngkit.steps.JiraAPISteps_TestNG"/>
+      </group> <!-- smoke -->
+      <group name="regular">
+        <method signature="JiraAPISteps_TestNG.verify_jira_ticket_filter_by_id()[pri:0, instance:testngkit.steps.JiraAPISteps_TestNG@70efb718]" name="verify_jira_ticket_filter_by_id" class="testngkit.steps.JiraAPISteps_TestNG"/>
+        <method signature="JiraAPISteps_TestNG.verify_status_code_for_add_jira_ticket_api_is()[pri:0, instance:testngkit.steps.JiraAPISteps_TestNG@70efb718]" name="verify_status_code_for_add_jira_ticket_api_is" class="testngkit.steps.JiraAPISteps_TestNG"/>
+        <method signature="JiraAPISteps_TestNG.verify_update_jira_is_working()[pri:0, instance:testngkit.steps.JiraAPISteps_TestNG@70efb718]" name="verify_update_jira_is_working" class="testngkit.steps.JiraAPISteps_TestNG"/>
+      </group> <!-- regular -->
+    </groups>
+    <test started-at="2024-04-21T14:55:04 CEST" name="Test" finished-at="2024-04-21T14:55:07 CEST" duration-ms="3104">
+      <class name="testngkit.steps.AddBookSteps_TestNG">
+        <test-method is-config="true" signature="start()[pri:0, instance:testngkit.steps.AddBookSteps_TestNG@38f116f6]" started-at="2024-04-21T14:55:03 CEST" name="start" finished-at="2024-04-21T14:55:04 CEST" duration-ms="1529" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:testngkit.steps.AddBookSteps_TestNG@38f116f6]" started-at="2024-04-21T14:55:04 CEST" name="setUpClass" finished-at="2024-04-21T14:55:04 CEST" duration-ms="40" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@752973de]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="user_execute_add_book_request_api_post_using_valid_data()[pri:0, instance:testngkit.steps.AddBookSteps_TestNG@38f116f6]" started-at="2024-04-21T14:55:04 CEST" name="user_execute_add_book_request_api_post_using_valid_data" finished-at="2024-04-21T14:55:05 CEST" duration-ms="450" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- user_execute_add_book_request_api_post_using_valid_data -->
+        <test-method signature="verify_status_code_for_api_is()[pri:0, instance:testngkit.steps.AddBookSteps_TestNG@38f116f6]" started-at="2024-04-21T14:55:05 CEST" name="verify_status_code_for_api_is" finished-at="2024-04-21T14:55:05 CEST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_status_code_for_api_is -->
+        <test-method signature="verify_added_book_id()[pri:0, instance:testngkit.steps.AddBookSteps_TestNG@38f116f6]" started-at="2024-04-21T14:55:05 CEST" name="verify_added_book_id" finished-at="2024-04-21T14:55:05 CEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_added_book_id -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:testngkit.steps.AddBookSteps_TestNG@38f116f6]" started-at="2024-04-21T14:55:05 CEST" name="tearDownClass" finished-at="2024-04-21T14:55:05 CEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+        <test-method is-config="true" signature="stop()[pri:0, instance:testngkit.steps.AddBookSteps_TestNG@38f116f6]" started-at="2024-04-21T14:55:07 CEST" name="stop" finished-at="2024-04-21T14:55:07 CEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stop -->
+      </class> <!-- testngkit.steps.AddBookSteps_TestNG -->
+      <class name="testngkit.steps.JiraAPISteps_TestNG">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:testngkit.steps.JiraAPISteps_TestNG@70efb718]" started-at="2024-04-21T14:55:05 CEST" name="setUpClass" finished-at="2024-04-21T14:55:05 CEST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@752973de]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="user_execute_add_jira_ticket_api_post_using_valid_data()[pri:0, instance:testngkit.steps.JiraAPISteps_TestNG@70efb718]" started-at="2024-04-21T14:55:05 CEST" name="user_execute_add_jira_ticket_api_post_using_valid_data" finished-at="2024-04-21T14:55:05 CEST" duration-ms="667" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- user_execute_add_jira_ticket_api_post_using_valid_data -->
+        <test-method signature="verify_created_jira_ticket_id()[pri:0, instance:testngkit.steps.JiraAPISteps_TestNG@70efb718]" started-at="2024-04-21T14:55:05 CEST" name="verify_created_jira_ticket_id" finished-at="2024-04-21T14:55:05 CEST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_created_jira_ticket_id -->
+        <test-method signature="verify_jira_ticket_filter_by_id()[pri:0, instance:testngkit.steps.JiraAPISteps_TestNG@70efb718]" started-at="2024-04-21T14:55:05 CEST" name="verify_jira_ticket_filter_by_id" finished-at="2024-04-21T14:55:07 CEST" duration-ms="1214" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_jira_ticket_filter_by_id -->
+        <test-method signature="verify_status_code_for_add_jira_ticket_api_is()[pri:0, instance:testngkit.steps.JiraAPISteps_TestNG@70efb718]" started-at="2024-04-21T14:55:07 CEST" name="verify_status_code_for_add_jira_ticket_api_is" finished-at="2024-04-21T14:55:07 CEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_status_code_for_add_jira_ticket_api_is -->
+        <test-method signature="verify_update_jira_is_working()[pri:0, instance:testngkit.steps.JiraAPISteps_TestNG@70efb718]" started-at="2024-04-21T14:55:07 CEST" name="verify_update_jira_is_working" finished-at="2024-04-21T14:55:07 CEST" duration-ms="708" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_update_jira_is_working -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:testngkit.steps.JiraAPISteps_TestNG@70efb718]" started-at="2024-04-21T14:55:07 CEST" name="tearDownClass" finished-at="2024-04-21T14:55:07 CEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- testngkit.steps.JiraAPISteps_TestNG -->
+    </test> <!-- Test -->
+  </suite> <!-- Functional_Suite -->
+</testng-results>
